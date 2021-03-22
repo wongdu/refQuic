@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C6ED54AA-C65C-37A6-8C6B-A4FC43CE91C6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>folly</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">folly.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">folly</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">folly.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">folly</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">folly.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">folly</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">folly.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">folly</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend /Gw</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend /Gw</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend /Gw</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\folly-2021.03.15.00\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePushCheckState.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cxx.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBZip2.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBacktrace.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindLibLZMA.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindFmt.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLZ4.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibAIO.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibDwarf.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibUring.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibiberty.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibsodium.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindSnappy.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindZstd.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyCompilerMSVC.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyConfigChecks.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyFunctions.cmake;F:\quicNew\folly-2021.03.15.00\CMake\GenPkgConfig.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.cmake.in;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.h.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-deps.cmake;F:\quicNew\folly-2021.03.15.00\CMake\libfolly.pc.in;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGlog.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindLibUnwind.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\CheckTypeSize\INT128_SIZE.cpp;F:\quicNew\folly-2021.03.15.00\vs2019\libfolly.pc.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePushCheckState.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cxx.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBZip2.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBacktrace.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindLibLZMA.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindFmt.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLZ4.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibAIO.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibDwarf.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibUring.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibiberty.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibsodium.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindSnappy.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindZstd.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyCompilerMSVC.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyConfigChecks.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyFunctions.cmake;F:\quicNew\folly-2021.03.15.00\CMake\GenPkgConfig.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.cmake.in;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.h.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-deps.cmake;F:\quicNew\folly-2021.03.15.00\CMake\libfolly.pc.in;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGlog.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindLibUnwind.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\CheckTypeSize\INT128_SIZE.cpp;F:\quicNew\folly-2021.03.15.00\vs2019\libfolly.pc.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePushCheckState.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cxx.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBZip2.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBacktrace.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindLibLZMA.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindFmt.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLZ4.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibAIO.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibDwarf.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibUring.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibiberty.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibsodium.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindSnappy.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindZstd.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyCompilerMSVC.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyConfigChecks.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyFunctions.cmake;F:\quicNew\folly-2021.03.15.00\CMake\GenPkgConfig.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.cmake.in;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.h.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-deps.cmake;F:\quicNew\folly-2021.03.15.00\CMake\libfolly.pc.in;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGlog.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindLibUnwind.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\CheckTypeSize\INT128_SIZE.cpp;F:\quicNew\folly-2021.03.15.00\vs2019\libfolly.pc.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePushCheckState.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cxx.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBZip2.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBacktrace.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindLibLZMA.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindZLIB.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindFmt.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLZ4.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibAIO.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibDwarf.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibUring.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibiberty.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindLibsodium.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindSnappy.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FindZstd.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyCompilerMSVC.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyConfigChecks.cmake;F:\quicNew\folly-2021.03.15.00\CMake\FollyFunctions.cmake;F:\quicNew\folly-2021.03.15.00\CMake\GenPkgConfig.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.cmake.in;F:\quicNew\folly-2021.03.15.00\CMake\folly-config.h.cmake;F:\quicNew\folly-2021.03.15.00\CMake\folly-deps.cmake;F:\quicNew\folly-2021.03.15.00\CMake\libfolly.pc.in;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindGlog.cmake;F:\quicNew\folly-2021.03.15.00\build\fbcode_builder\CMake\FindLibUnwind.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\CheckTypeSize\INT128_SIZE.cpp;F:\quicNew\folly-2021.03.15.00\vs2019\libfolly.pc.gen;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CancellationToken.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ClockGettimeWrappers.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Conv.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Demangle.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ExceptionString.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ExceptionWrapper.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Executor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\File.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FileUtil.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Fingerprint.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Format.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GroupVarint.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\IPAddress.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IPAddressV4.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IPAddressV6.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MacAddress.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MicroLock.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Random.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ScopeGuard.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\SharedMutex.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Singleton.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketAddress.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\String.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimeoutQueue.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Try.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Unicode.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Uri.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\dynamic.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\json.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\json_patch.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\json_pointer.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Compression.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CompressionContextPoolSingletons.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Zlib.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Zstd.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CacheLocality.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QueueObserver.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\F14Table.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncTrace.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtFork.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Futex.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\detail\IPAddress.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MemoryIdler.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RangeCommon.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RangeSse42.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SingletonStackTrace.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketFastOpen.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sse.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StaticSingletonManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadLocalDetail.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\UniqueInstance.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CPUThreadPoolExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Codel.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EDFThreadPoolExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ExecutorWithPriority.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlobalExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlobalThreadPoolList.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IOThreadPoolExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\InlineExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ManualExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MeteredExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QueuedImmediateExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SerialExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StrandExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadPoolExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadedExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimedDrivableExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimekeeperScheduledExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtomicReadMostlyMainPtr.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\DynamicParser.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EnvUtil.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FunctionScheduler.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\JSONSchema.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\JemallocHugePageAllocator.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\JemallocNodumpAllocator.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QuotientMultiSet.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\STTimerFDTimeoutManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Select64.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TestUtil.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadWheelTimekeeperHighRes.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadedRepeatingFunctionRunner.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimerFD.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimerFDTimeoutManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Dump.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Load.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\coro\Baton.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Mutex.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\coro\SharedMutex.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\coro\detail\Malloc.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FsUtil.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HugePages.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\observer\detail\Core.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ObserverManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Settings.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Dwarf.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Elf.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ElfCache.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LineReader.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SignalHandler.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StackTrace.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SymbolizePrinter.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SymbolizedFrame.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Symbolizer.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\farmhash.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\BatchSemaphore.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\fibers\Baton.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Fiber.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FiberManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GuardPageAllocator.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\fibers\Semaphore.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SemaphoreBase.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SimpleLoopController.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Async.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtomicBatchDispatcher.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Barrier.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Future.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ManualTimekeeper.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Promise.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SharedPromise.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadWheelTimekeeper.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\futures\detail\Core.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Checksum.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SpookyHashV1.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SpookyHashV2.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ChecksumDetail.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Crc32CombineDetail.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Crc32cDetail.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\init\Init.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Phase.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Cursor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlobalShutdownSocketSet.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IOBuf.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IOBufQueue.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RecordIO.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ShutdownSocketSet.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketOptionMap.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncPipe.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSSLSocket.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncServerSocket.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSignalHandler.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSocket.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSocketException.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncTimeout.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncUDPSocket.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBase.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseBackendBase.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseLocal.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseThread.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventHandler.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HHWheelTimer.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\PasswordInFile.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Request.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLContext.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLOptions.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ScopedEventBaseThread.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimeoutManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\VirtualEventBase.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLUtils.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLErrors.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ServerSocket.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Transport.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Assume.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CString.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SafeAssert.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ToAscii.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncFileWriter.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncLogWriter.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\BridgeFromGoogleLogging.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CustomLogFormatter.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FileHandlerFactory.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FileWriterFactory.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlogStyleFormatter.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ImmediateFileWriter.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\logging\Init.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\InitWeak.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogCategory.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogCategoryConfig.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogConfig.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogConfigParser.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogHandlerConfig.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogLevel.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogMessage.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogName.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogStream.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogStreamProcessor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Logger.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LoggerDB.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ObjectToString.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RateLimiter.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StandardLogHandler.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StandardLogHandlerFactory.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StreamHandlerFactory.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\xlog.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MallctlHelper.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ReentrantAllocator.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SanitizeAddress.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SanitizeLeak.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadCachedArena.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MallocImpl.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\NetOps.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\NetOpsDispatcher.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketFileDescriptorMap.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Builtins.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Dirent.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Fcntl.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Filesystem.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Libgen.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\portability\Malloc.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSL.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\PThread.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sched.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\portability\Semaphore.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sockets.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Stdio.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Stdlib.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\portability\String.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysFile.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysMembarrier.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysMman.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysResource.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysStat.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysTime.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysUio.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Time.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Unistd.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\ssl\Init.cpp.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLCertUtils.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLHash.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLSessionManager.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLSession.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLThreading.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QuantileEstimator.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TDigest.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\DoubleRadixSort.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsymmetricMemoryBarrier.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtomicNotification.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\DistributedMutex.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Hazptr.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HazptrThreadPoolExecutor.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ParkingLot.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Rcu.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SanitizeThread.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\WaitOptions.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Hardware.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sleeper.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HardwareConcurrency.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MemoryMapping.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Pid.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Shell.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadName.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncStack.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ScopedBoundPort.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketPair.obj" />
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimeUtil.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\quicNew\folly-2021.03.15.00\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{D5B3095B-4ED1-3B0B-8DD2-1BAEE60AD06B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.vcxproj">
+      <Project>{935F2309-5C40-3BA2-8C4E-3A4A2B317DA2}</Project>
+      <Name>folly_base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

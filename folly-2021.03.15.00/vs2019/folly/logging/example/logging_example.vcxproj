@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{079D809B-920A-3CE8-822B-C79DFF2210D2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>logging_example</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">logging_example.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">logging_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">logging_example.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">logging_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">logging_example.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">logging_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">logging_example.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">logging_example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\folly-2021.03.15.00\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR="Debug";GOOGLE_GLOG_DLL_DECL=;GLOG_NO_ABBREVIATED_SEVERITIES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\logging_example_lib.lib;..\..\..\Debug\folly.lib;F:\quicNew\folly-2021.03.15.00\deps\lib\fmt\x64\Debug\fmtd.lib;Iphlpapi.lib;Ws2_32.lib;C:\Boost\lib\libboost_context-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_filesystem-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_program_options-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_regex-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_system-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_thread-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_chrono-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_date_time-vc142-mt-gd-x64-1_75.lib;C:\Boost\lib\libboost_atomic-vc142-mt-gd-x64-1_75.lib;F:\quicNew\folly-2021.03.15.00\deps\lib\glog\x64\Debug\glogd.lib;..\..\..\..\..\deps\OpenSSL-Win64\lib\VC\libssl64MDd.lib;..\..\..\..\..\deps\OpenSSL-Win64\lib\VC\libcrypto64MDd.lib;F:\quicNew\folly-2021.03.15.00\deps\lib\double-conversion\x64\Debug\double-conversion.lib;F:\quicNew\folly-2021.03.15.00\deps\lib\libevent-2.1.12-stable\x64\Debug\event.lib;F:\quicNew\folly-2021.03.15.00\deps\lib\libevent-2.1.12-stable\x64\Debug\event_core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/Debug/logging_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/Debug/logging_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\logging_example_lib.lib;..\..\..\Release\folly.lib;fmt::fmt.lib;Iphlpapi.lib;Ws2_32.lib;C:\Boost\lib\libboost_context-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_filesystem-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_program_options-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_regex-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_system-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_thread-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_chrono-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_date_time-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_atomic-vc142-mt-x64-1_75.lib;GLOG_LIBRARY-NOTFOUND.lib;..\..\..\..\deps\OpenSSL-Win64\lib\VC\libssl64MD.lib;..\..\..\..\deps\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/Release/logging_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/Release/logging_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\logging_example_lib.lib;..\..\..\MinSizeRel\folly.lib;fmt::fmt.lib;Iphlpapi.lib;Ws2_32.lib;C:\Boost\lib\libboost_context-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_filesystem-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_program_options-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_regex-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_system-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_thread-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_chrono-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_date_time-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_atomic-vc142-mt-x64-1_75.lib;GLOG_LIBRARY-NOTFOUND.lib;..\..\..\..\deps\OpenSSL-Win64\lib\VC\libssl64MD.lib;..\..\..\..\deps\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/MinSizeRel/logging_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/MinSizeRel/logging_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4191;4291;4309;4310;4366;4587;4592;4628;4723;4724;4868;4996;4068;4091;4146;4800;4018;4365;4388;4389;4100;4459;4505;4701;4702;4061;4127;4200;4201;4296;4316;4324;4355;4371;4435;4514;4548;4571;4574;4582;4583;4619;4623;4625;4626;4643;4647;4668;4706;4710;4711;4714;4820;5026;5027;5031;5045</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>SyncCThrow</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\logging_example_lib.lib;..\..\..\RelWithDebInfo\folly.lib;fmt::fmt.lib;Iphlpapi.lib;Ws2_32.lib;C:\Boost\lib\libboost_context-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_filesystem-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_program_options-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_regex-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_system-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_thread-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_chrono-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_date_time-vc142-mt-x64-1_75.lib;C:\Boost\lib\libboost_atomic-vc142-mt-x64-1_75.lib;GLOG_LIBRARY-NOTFOUND.lib;..\..\..\..\deps\OpenSSL-Win64\lib\VC\libssl64MD.lib;..\..\..\..\deps\OpenSSL-Win64\lib\VC\libcrypto64MD.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/RelWithDebInfo/logging_example.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/RelWithDebInfo/logging_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\folly-2021.03.15.00\folly\logging\example\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/folly/logging/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/folly/logging/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/folly/logging/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/quicNew/folly-2021.03.15.00/folly/logging/example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/folly-2021.03.15.00 -BF:/quicNew/folly-2021.03.15.00/vs2019 --check-stamp-file F:/quicNew/folly-2021.03.15.00/vs2019/folly/logging/example/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\example\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\quicNew\folly-2021.03.15.00\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{D5B3095B-4ED1-3B0B-8DD2-1BAEE60AD06B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly.vcxproj">
+      <Project>{C6ED54AA-C65C-37A6-8C6B-A4FC43CE91C6}</Project>
+      <Name>folly</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly\logging\example\logging_example_lib.vcxproj">
+      <Project>{E7F3D206-6E06-3A41-8821-DEA8589CB551}</Project>
+      <Name>logging_example_lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

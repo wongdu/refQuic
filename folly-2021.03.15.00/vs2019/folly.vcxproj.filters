@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\folly-2021.03.15.00\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CancellationToken.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ClockGettimeWrappers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Conv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Demangle.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ExceptionString.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ExceptionWrapper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Executor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\File.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FileUtil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Fingerprint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Format.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GroupVarint.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\IPAddress.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IPAddressV4.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IPAddressV6.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MacAddress.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MicroLock.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Random.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ScopeGuard.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\SharedMutex.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Singleton.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketAddress.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\String.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimeoutQueue.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Try.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Unicode.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Uri.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\dynamic.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\json_patch.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\json_pointer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Compression.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CompressionContextPoolSingletons.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Zlib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Zstd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CacheLocality.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QueueObserver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\F14Table.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncTrace.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtFork.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Futex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\detail\IPAddress.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MemoryIdler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RangeCommon.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RangeSse42.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SingletonStackTrace.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketFastOpen.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sse.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StaticSingletonManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadLocalDetail.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\UniqueInstance.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CPUThreadPoolExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Codel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EDFThreadPoolExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ExecutorWithPriority.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlobalExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlobalThreadPoolList.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IOThreadPoolExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\InlineExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ManualExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MeteredExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QueuedImmediateExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SerialExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StrandExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadPoolExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadedExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimedDrivableExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimekeeperScheduledExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtomicReadMostlyMainPtr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\DynamicParser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EnvUtil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FunctionScheduler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\JSONSchema.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\JemallocHugePageAllocator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\JemallocNodumpAllocator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QuotientMultiSet.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\STTimerFDTimeoutManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Select64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TestUtil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadWheelTimekeeperHighRes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadedRepeatingFunctionRunner.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimerFD.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimerFDTimeoutManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Dump.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Load.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\coro\Baton.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Mutex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\coro\SharedMutex.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\coro\detail\Malloc.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FsUtil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HugePages.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\experimental\observer\detail\Core.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ObserverManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Settings.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Dwarf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Elf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ElfCache.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LineReader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SignalHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StackTrace.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SymbolizePrinter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SymbolizedFrame.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Symbolizer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\farmhash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\BatchSemaphore.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\fibers\Baton.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Fiber.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FiberManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GuardPageAllocator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\fibers\Semaphore.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SemaphoreBase.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SimpleLoopController.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Async.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtomicBatchDispatcher.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Barrier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Future.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ManualTimekeeper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Promise.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SharedPromise.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadWheelTimekeeper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\futures\detail\Core.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Checksum.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SpookyHashV1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SpookyHashV2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ChecksumDetail.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Crc32CombineDetail.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Crc32cDetail.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\init\Init.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Phase.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Cursor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlobalShutdownSocketSet.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IOBuf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\IOBufQueue.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RecordIO.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ShutdownSocketSet.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketOptionMap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncPipe.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSSLSocket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncServerSocket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSignalHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSocket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncSocketException.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncTimeout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncUDPSocket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBase.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseBackendBase.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseLocal.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventBaseThread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\EventHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HHWheelTimer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\PasswordInFile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Request.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLContext.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLOptions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ScopedEventBaseThread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimeoutManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\VirtualEventBase.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLUtils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLErrors.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ServerSocket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Transport.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Assume.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CString.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SafeAssert.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ToAscii.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncFileWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncLogWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\BridgeFromGoogleLogging.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\CustomLogFormatter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FileHandlerFactory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\FileWriterFactory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\GlogStyleFormatter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ImmediateFileWriter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\logging\Init.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\InitWeak.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogCategory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogCategoryConfig.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogConfig.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogConfigParser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogHandlerConfig.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogLevel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogMessage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogName.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogStream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LogStreamProcessor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Logger.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\LoggerDB.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ObjectToString.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\RateLimiter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StandardLogHandler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StandardLogHandlerFactory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\StreamHandlerFactory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\xlog.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MallctlHelper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ReentrantAllocator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SanitizeAddress.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SanitizeLeak.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadCachedArena.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MallocImpl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\NetOps.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\NetOpsDispatcher.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketFileDescriptorMap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Builtins.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Dirent.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Fcntl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Filesystem.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Libgen.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\portability\Malloc.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSL.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\PThread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sched.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\portability\Semaphore.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sockets.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Stdio.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Stdlib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\portability\String.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysFile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysMembarrier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysMman.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysResource.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysStat.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysTime.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SysUio.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Unistd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\folly\ssl\Init.cpp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLCertUtils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLHash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SSLSessionManager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLSession.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\OpenSSLThreading.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QuantileEstimator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TDigest.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\DoubleRadixSort.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsymmetricMemoryBarrier.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AtomicNotification.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\DistributedMutex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Hazptr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HazptrThreadPoolExecutor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ParkingLot.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Rcu.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SanitizeThread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\WaitOptions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Hardware.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Sleeper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\HardwareConcurrency.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\MemoryMapping.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Pid.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\Shell.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ThreadName.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\AsyncStack.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\ScopedBoundPort.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\SocketPair.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\TimeUtil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{116382BF-7776-3FD3-9D34-8074FFFD9866}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+.vs/
+build
+CMakeFiles
+*.obj
+*.pdb
+*.log
+*.tlog
+Debug
+*.vcxproj.user

@@ -1,0 +1,3141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\CancellationToken.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ClockGettimeWrappers.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Conv.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Demangle.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ExceptionString.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ExceptionWrapper.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Executor.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\File.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\FileUtil.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Fingerprint.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Format.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\GroupVarint.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\IPAddress.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\IPAddressV4.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\IPAddressV6.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\MacAddress.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\MicroLock.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Random.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ScopeGuard.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\SharedMutex.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Singleton.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\SocketAddress.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\String.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\TimeoutQueue.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Try.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Unicode.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\Uri.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\dynamic.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\json.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\json_patch.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\json_pointer.cpp">
+      <Filter>folly</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\compression\Compression.cpp">
+      <Filter>folly\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\compression\CompressionContextPoolSingletons.cpp">
+      <Filter>folly\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\compression\Zlib.cpp">
+      <Filter>folly\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\compression\Zstd.cpp">
+      <Filter>folly\compression</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\CacheLocality.cpp">
+      <Filter>folly\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\QueueObserver.cpp">
+      <Filter>folly\concurrency</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14Table.cpp">
+      <Filter>folly\container\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\AsyncTrace.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\AtFork.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\Futex.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\IPAddress.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\MemoryIdler.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\RangeCommon.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\RangeSse42.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\SingletonStackTrace.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\SocketFastOpen.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\Sse.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\StaticSingletonManager.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\ThreadLocalDetail.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\detail\UniqueInstance.cpp">
+      <Filter>folly\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\CPUThreadPoolExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\Codel.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\EDFThreadPoolExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ExecutorWithPriority.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\GlobalExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\GlobalThreadPoolList.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\IOThreadPoolExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\InlineExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ManualExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\MeteredExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\QueuedImmediateExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\SerialExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\StrandExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ThreadPoolExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ThreadedExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\TimedDrivableExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\executors\TimekeeperScheduledExecutor.cpp">
+      <Filter>folly\executors</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\AtomicReadMostlyMainPtr.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\DynamicParser.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\EnvUtil.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\FunctionScheduler.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\JSONSchema.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\JemallocHugePageAllocator.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\JemallocNodumpAllocator.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\QuotientMultiSet.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\STTimerFDTimeoutManager.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\Select64.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TestUtil.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\ThreadWheelTimekeeperHighRes.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\ThreadedRepeatingFunctionRunner.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TimerFD.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TimerFDTimeoutManager.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\bser\Dump.cpp">
+      <Filter>folly\experimental\bser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\bser\Load.cpp">
+      <Filter>folly\experimental\bser</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Baton.cpp">
+      <Filter>folly\experimental\coro</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Mutex.cpp">
+      <Filter>folly\experimental\coro</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\SharedMutex.cpp">
+      <Filter>folly\experimental\coro</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\Malloc.cpp">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\io\FsUtil.cpp">
+      <Filter>folly\experimental\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\io\HugePages.cpp">
+      <Filter>folly\experimental\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\detail\Core.cpp">
+      <Filter>folly\experimental\observer\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\detail\ObserverManager.cpp">
+      <Filter>folly\experimental\observer\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\settings\Settings.cpp">
+      <Filter>folly\experimental\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\Dwarf.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\Elf.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\ElfCache.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\LineReader.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\SignalHandler.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\StackTrace.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\SymbolizePrinter.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\SymbolizedFrame.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\Symbolizer.cpp">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\external\farmhash\farmhash.cpp">
+      <Filter>folly\external\farmhash</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\BatchSemaphore.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Baton.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Fiber.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\FiberManager.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\GuardPageAllocator.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Semaphore.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\SemaphoreBase.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\SimpleLoopController.cpp">
+      <Filter>folly\fibers</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Async.cpp">
+      <Filter>folly\fibers\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\detail\AtomicBatchDispatcher.cpp">
+      <Filter>folly\fibers\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Barrier.cpp">
+      <Filter>folly\futures</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Future.cpp">
+      <Filter>folly\futures</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\futures\ManualTimekeeper.cpp">
+      <Filter>folly\futures</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Promise.cpp">
+      <Filter>folly\futures</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\futures\SharedPromise.cpp">
+      <Filter>folly\futures</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\futures\ThreadWheelTimekeeper.cpp">
+      <Filter>folly\futures</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\futures\detail\Core.cpp">
+      <Filter>folly\futures\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\hash\Checksum.cpp">
+      <Filter>folly\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\hash\SpookyHashV1.cpp">
+      <Filter>folly\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\hash\SpookyHashV2.cpp">
+      <Filter>folly\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\hash\detail\ChecksumDetail.cpp">
+      <Filter>folly\hash\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\hash\detail\Crc32CombineDetail.cpp">
+      <Filter>folly\hash\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\hash\detail\Crc32cDetail.cpp">
+      <Filter>folly\hash\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\init\Init.cpp">
+      <Filter>folly\init</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\init\Phase.cpp">
+      <Filter>folly\init</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\Cursor.cpp">
+      <Filter>folly\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\GlobalShutdownSocketSet.cpp">
+      <Filter>folly\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\IOBuf.cpp">
+      <Filter>folly\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\IOBufQueue.cpp">
+      <Filter>folly\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\RecordIO.cpp">
+      <Filter>folly\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\ShutdownSocketSet.cpp">
+      <Filter>folly\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\SocketOptionMap.cpp">
+      <Filter>folly\io</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncPipe.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSSLSocket.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncServerSocket.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSignalHandler.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSocket.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSocketException.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncTimeout.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncUDPSocket.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBase.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseBackendBase.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseLocal.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseManager.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseThread.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventHandler.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\HHWheelTimer.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\PasswordInFile.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\Request.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\SSLContext.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\SSLOptions.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ScopedEventBaseThread.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\TimeoutManager.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\VirtualEventBase.cpp">
+      <Filter>folly\io\async</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ssl\OpenSSLUtils.cpp">
+      <Filter>folly\io\async\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ssl\SSLErrors.cpp">
+      <Filter>folly\io\async\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\coro\ServerSocket.cpp">
+      <Filter>folly\io\coro</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\coro\Transport.cpp">
+      <Filter>folly\io\coro</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Assume.cpp">
+      <Filter>folly\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\lang\CString.cpp">
+      <Filter>folly\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\lang\SafeAssert.cpp">
+      <Filter>folly\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\lang\ToAscii.cpp">
+      <Filter>folly\lang</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\AsyncFileWriter.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\AsyncLogWriter.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\BridgeFromGoogleLogging.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\CustomLogFormatter.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\FileHandlerFactory.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\FileWriterFactory.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\GlogStyleFormatter.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\ImmediateFileWriter.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\Init.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\InitWeak.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogCategory.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogCategoryConfig.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogConfig.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogConfigParser.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogHandlerConfig.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogLevel.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogMessage.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogName.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogStream.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogStreamProcessor.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\Logger.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LoggerDB.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\ObjectToString.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\RateLimiter.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\StandardLogHandler.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\StandardLogHandlerFactory.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\StreamHandlerFactory.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\logging\xlog.cpp">
+      <Filter>folly\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\memory\MallctlHelper.cpp">
+      <Filter>folly\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\memory\ReentrantAllocator.cpp">
+      <Filter>folly\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\memory\SanitizeAddress.cpp">
+      <Filter>folly\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\memory\SanitizeLeak.cpp">
+      <Filter>folly\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\memory\ThreadCachedArena.cpp">
+      <Filter>folly\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\memory\detail\MallocImpl.cpp">
+      <Filter>folly\memory\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\net\NetOps.cpp">
+      <Filter>folly\net</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\net\NetOpsDispatcher.cpp">
+      <Filter>folly\net</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\net\detail\SocketFileDescriptorMap.cpp">
+      <Filter>folly\net\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Builtins.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Dirent.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Fcntl.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Filesystem.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Libgen.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Malloc.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\OpenSSL.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\PThread.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Sched.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Semaphore.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Sockets.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Stdio.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Stdlib.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\String.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysFile.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysMembarrier.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysMman.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysResource.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysStat.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysTime.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysUio.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Time.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Unistd.cpp">
+      <Filter>folly\portability</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\Init.cpp">
+      <Filter>folly\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\OpenSSLCertUtils.cpp">
+      <Filter>folly\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\OpenSSLHash.cpp">
+      <Filter>folly\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\SSLSessionManager.cpp">
+      <Filter>folly\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\detail\OpenSSLSession.cpp">
+      <Filter>folly\ssl\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\detail\OpenSSLThreading.cpp">
+      <Filter>folly\ssl\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\stats\QuantileEstimator.cpp">
+      <Filter>folly\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\stats\TDigest.cpp">
+      <Filter>folly\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\DoubleRadixSort.cpp">
+      <Filter>folly\stats\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AsymmetricMemoryBarrier.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AtomicNotification.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\DistributedMutex.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Hazptr.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrThreadPoolExecutor.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\ParkingLot.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Rcu.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\SanitizeThread.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\WaitOptions.cpp">
+      <Filter>folly\synchronization</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\Hardware.cpp">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\Sleeper.cpp">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\system\HardwareConcurrency.cpp">
+      <Filter>folly\system</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\system\MemoryMapping.cpp">
+      <Filter>folly\system</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\system\Pid.cpp">
+      <Filter>folly\system</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\system\Shell.cpp">
+      <Filter>folly\system</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\system\ThreadName.cpp">
+      <Filter>folly\system</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\tracing\AsyncStack.cpp">
+      <Filter>folly\tracing</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\ScopedBoundPort.cpp">
+      <Filter>folly\io\async\test</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\SocketPair.cpp">
+      <Filter>folly\io\async\test</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\TimeUtil.cpp">
+      <Filter>folly\io\async\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\AtomicHashArray-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\AtomicHashArray.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\AtomicHashMap-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\AtomicHashMap.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\AtomicIntrusiveLinkedList.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\AtomicLinkedList.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\AtomicUnorderedMap.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Benchmark.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\BenchmarkUtil.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Bits.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\CPortability.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\CancellationToken-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\CancellationToken.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Chrono.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ClockGettimeWrappers.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ConcurrentBitSet.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ConcurrentLazy.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ConcurrentSkipList-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ConcurrentSkipList.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ConstexprMath.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Conv.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\CppAttributes.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\CpuId.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\DefaultKeepAliveExecutor.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Demangle.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\DiscriminatedPtr.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\DynamicConverter.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Exception.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ExceptionString.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ExceptionWrapper-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ExceptionWrapper.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Executor.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Expected.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\FBString.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\FBVector.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\File.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\FileUtil.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Fingerprint.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\FixedString.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Format-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Format.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\FormatArg.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\FormatTraits.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Function.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\GLog.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\GroupVarint.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Hash.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\IPAddress.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\IPAddressException.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\IPAddressV4.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\IPAddressV6.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Indestructible.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\IndexedMemPool.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\IntrusiveList.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Lazy.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Likely.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\LockTraits.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\MPMCPipeline.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\MPMCQueue.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\MacAddress.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\MapUtil.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Math.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Memory.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\MicroLock.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\MicroSpinLock.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\MoveWrapper.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Optional.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Overload.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\PackedSyncPtr.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Padded.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\PolyException.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Portability.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Preprocessor.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ProducerConsumerQueue.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\RWSpinLock.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Random-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Random.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Range.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Replaceable.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ScopeGuard.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\SharedMutex.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Singleton-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Singleton.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\SingletonThreadLocal.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\SocketAddress.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\SpinLock.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\String-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\String.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Subprocess.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Synchronized.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\SynchronizedPtr.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ThreadCachedInt.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ThreadLocal.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\TimeoutQueue.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\TokenBucket.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Traits.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Try-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Try.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\UTF8String.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Unicode.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Unit.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Uri-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Uri.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Utility.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\Varint.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\VirtualExecutor.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\dynamic-inl.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\dynamic.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\json.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\json_patch.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\json_pointer.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\small_vector.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\sorted_vector_types.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stop_watch.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\chrono\Conv.h">
+      <Filter>folly\chrono</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\chrono\Hardware.h">
+      <Filter>folly\chrono</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\compression\Compression.h">
+      <Filter>folly\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\compression\CompressionContextPool.h">
+      <Filter>folly\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\compression\CompressionContextPoolSingletons.h">
+      <Filter>folly\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\compression\CompressionCoreLocalContextPool.h">
+      <Filter>folly\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\compression\Utils.h">
+      <Filter>folly\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\compression\Zlib.h">
+      <Filter>folly\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\compression\Zstd.h">
+      <Filter>folly\compression</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\AtomicSharedPtr.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\CacheLocality.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\ConcurrentHashMap.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\CoreCachedSharedPtr.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\DynamicBoundedQueue.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\PriorityUnboundedQueueSet.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\QueueObserver.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\UnboundedQueue.h">
+      <Filter>folly\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\detail\AtomicSharedPtr-detail.h">
+      <Filter>folly\concurrency\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\concurrency\detail\ConcurrentHashMap-detail.h">
+      <Filter>folly\concurrency\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\Access.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\Array.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\BitIterator.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\Enumerate.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\EvictingCacheMap.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\F14Map-fwd.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\F14Map.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\F14Set-fwd.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\F14Set.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\Foreach-inl.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\Foreach.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\HeterogeneousAccess-fwd.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\HeterogeneousAccess.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\Iterator.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\Merge.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\SparseByteSet.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\View.h">
+      <Filter>folly\container</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\BitIteratorDetail.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14Defaults.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14IntrinsicsAvailability.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14MapFallback.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14Mask.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14Policy.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14SetFallback.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\F14Table.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\detail\Util.h">
+      <Filter>folly\container\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\AsyncTrace.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\AtFork.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\AtomicHashUtils.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\AtomicUnorderedMapUtils.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\DiscriminatedPtrDetail.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\FileUtilDetail.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\FingerprintPolynomial.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\Futex-inl.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\Futex.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\GroupVarintDetail.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\IPAddress.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\IPAddressSource.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\Iterators.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\MPMCPipelineDetail.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\MemoryIdler.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\RangeCommon.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\RangeSse42.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\Singleton.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\SingletonStackTrace.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\SlowFingerprint.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\SocketFastOpen.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\Sse.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\StaticSingletonManager.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\ThreadLocalDetail.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\TurnSequencer.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\detail\UniqueInstance.h">
+      <Filter>folly\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\Async.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\CPUThreadPoolExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\Codel.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\DrivableExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\EDFThreadPoolExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ExecutorWithPriority-inl.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ExecutorWithPriority.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\FiberIOExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\FutureExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\GlobalExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\GlobalThreadPoolList.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\IOExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\IOObjectCache.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\IOThreadPoolExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\InlineExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ManualExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\MeteredExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\QueuedImmediateExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ScheduledExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\SequencedExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\SerialExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\SoftRealTimeExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\StrandExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ThreadPoolExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\ThreadedExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\TimedDrivableExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\TimekeeperScheduledExecutor.h">
+      <Filter>folly\executors</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\task_queue\BlockingQueue.h">
+      <Filter>folly\executors\task_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\task_queue\LifoSemMPMCQueue.h">
+      <Filter>folly\executors\task_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\task_queue\PriorityLifoSemMPMCQueue.h">
+      <Filter>folly\executors\task_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\task_queue\PriorityUnboundedBlockingQueue.h">
+      <Filter>folly\executors\task_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\task_queue\UnboundedBlockingQueue.h">
+      <Filter>folly\executors\task_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\thread_factory\InitThreadFactory.h">
+      <Filter>folly\executors\thread_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\thread_factory\NamedThreadFactory.h">
+      <Filter>folly\executors\thread_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\thread_factory\PriorityThreadFactory.h">
+      <Filter>folly\executors\thread_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\executors\thread_factory\ThreadFactory.h">
+      <Filter>folly\executors\thread_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\AtomicReadMostlyMainPtr.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\AutoTimer.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\BitVectorCoding.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\Bits.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\Cleanup.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\CodingDetail.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\DynamicParser-inl.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\DynamicParser.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\EliasFanoCoding.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\EnvUtil.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\EventCount.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\ExecutionObserver.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\FlatCombiningPriorityQueue.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\FunctionScheduler.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\FutureDAG.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\Instructions.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\JSONSchema.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\JemallocHugePageAllocator.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\JemallocNodumpAllocator.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\LockFreeRingBuffer.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\PrimaryPtr.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\QuotientMultiSet-inl.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\QuotientMultiSet.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\ReadMostlySharedPtr.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\RelaxedConcurrentPriorityQueue.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\STTimerFDTimeoutManager.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\Select64.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\SingleWriterFixedHashMap.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\SingletonRelaxedCounter.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\StampedPtr.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\StringKeyedCommon.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\StringKeyedMap.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\StringKeyedSet.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\StringKeyedUnorderedMap.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\StringKeyedUnorderedSet.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TLRefCount.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TestUtil.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\ThreadWheelTimekeeperHighRes.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\ThreadedRepeatingFunctionRunner.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TimerFD.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TimerFDTimeoutManager.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\TupleOps.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\bser\Bser.h">
+      <Filter>folly\experimental\bser</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Accumulate-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Accumulate.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\AsyncGenerator.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\AsyncPipe.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\AsyncScope.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\AsyncStack.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Baton.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\BlockingWait.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Collect-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Collect.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Concat-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Concat.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Coroutine.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\CurrentExecutor.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Dematerialize-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Dematerialize.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\DetachOnCancel.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Filter-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Filter.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\FutureUtil.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Generator.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\GmockHelpers.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\GtestHelpers.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Invoke.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Materialize-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Materialize.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Merge-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Merge.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Multiplex-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Multiplex.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Mutex.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Result.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Retry.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\SharedLock.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\SharedMutex.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Sleep-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Sleep.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Task.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\TimedWait.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Timeout-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Timeout.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Traits.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Transform-inl.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Transform.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\UnboundedQueue.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\ViaIfAsync.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\Wait.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\WithAsyncStack.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\WithCancellation.h">
+      <Filter>folly\experimental\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\Barrier.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\BarrierTask.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\CurrentAsyncFrame.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\Helpers.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\InlineTask.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\Malloc.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\ManualLifetime.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\coro\detail\Traits.h">
+      <Filter>folly\experimental\coro\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\flat_combining\FlatCombining.h">
+      <Filter>folly\experimental\flat_combining</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\io\FsUtil.h">
+      <Filter>folly\experimental\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\io\HugePages.h">
+      <Filter>folly\experimental\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\Observable-inl.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\Observable.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\Observer-inl.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\Observer-pre.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\Observer.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\SimpleObservable-inl.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\SimpleObservable.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\WithJitter-inl.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\WithJitter.h">
+      <Filter>folly\experimental\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\detail\Core.h">
+      <Filter>folly\experimental\observer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\detail\GraphCycleDetector.h">
+      <Filter>folly\experimental\observer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\observer\detail\ObserverManager.h">
+      <Filter>folly\experimental\observer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\settings\Settings.h">
+      <Filter>folly\experimental\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\settings\SettingsMetadata.h">
+      <Filter>folly\experimental\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\settings\detail\SettingsImpl.h">
+      <Filter>folly\experimental\settings\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\Dwarf.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\Elf-inl.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\Elf.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\ElfCache.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\LineReader.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\SignalHandler.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\StackTrace.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\SymbolizePrinter.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\SymbolizedFrame.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\Symbolizer.h">
+      <Filter>folly\experimental\symbolizer</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\symbolizer\detail\Debug.h">
+      <Filter>folly\experimental\symbolizer\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\external\farmhash\farmhash.h">
+      <Filter>folly\external\farmhash</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\AddTasks-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\AddTasks.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\AtomicBatchDispatcher-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\AtomicBatchDispatcher.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\BatchDispatcher.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\BatchSemaphore.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Baton-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Baton.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\BoostContextCompatibility.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\CallOnce.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\EventBaseLoopController-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\EventBaseLoopController.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\ExecutorBasedLoopController.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\ExecutorLoopController-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\ExecutorLoopController.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Fiber-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Fiber.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\FiberManager-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\FiberManager.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\FiberManagerInternal-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\FiberManagerInternal.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\FiberManagerMap-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\FiberManagerMap.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\ForEach-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\ForEach.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\GenericBaton.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\GuardPageAllocator.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\LoopController.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Promise-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Promise.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\Semaphore.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\SemaphoreBase.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\SimpleLoopController.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\TimedMutex-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\TimedMutex.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\WhenN-inl.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\WhenN.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Async.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Baton.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Collect-inl.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Collect.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\FiberManager.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Future.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Promise.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\Task.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\async\WaitUtils.h">
+      <Filter>folly\fibers\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\detail\AtomicBatchDispatcher.h">
+      <Filter>folly\fibers\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\fibers\traits.h">
+      <Filter>folly\fibers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\functional\ApplyTuple.h">
+      <Filter>folly\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\functional\Invoke.h">
+      <Filter>folly\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\functional\Partial.h">
+      <Filter>folly\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Barrier.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Future-inl.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Future-pre.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Future.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\FutureSplitter.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\ManualTimekeeper.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Portability.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Promise-inl.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Promise.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\Retrying.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\SharedPromise-inl.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\SharedPromise.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\ThreadWheelTimekeeper.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\WTCallback.h">
+      <Filter>folly\futures</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\detail\Core.h">
+      <Filter>folly\futures\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\futures\detail\Types.h">
+      <Filter>folly\futures\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Base-inl.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Base.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Combine-inl.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Combine.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Core-inl.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Core.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\File-inl.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\File.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\IStream.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Parallel-inl.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\Parallel.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\ParallelMap-inl.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\ParallelMap.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\String-inl.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\gen\String.h">
+      <Filter>folly\gen</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\hash\Checksum.h">
+      <Filter>folly\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\hash\FarmHash.h">
+      <Filter>folly\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\hash\Hash.h">
+      <Filter>folly\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\hash\SpookyHashV1.h">
+      <Filter>folly\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\hash\SpookyHashV2.h">
+      <Filter>folly\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\hash\detail\ChecksumDetail.h">
+      <Filter>folly\hash\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\init\Init.h">
+      <Filter>folly\init</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\init\Phase.h">
+      <Filter>folly\init</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\Cursor-inl.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\Cursor.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\GlobalShutdownSocketSet.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\IOBuf.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\IOBufQueue.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\RecordIO-inl.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\RecordIO.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\ShutdownSocketSet.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\SocketOptionMap.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\TypedIOBuf.h">
+      <Filter>folly\io</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncPipe.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSSLSocket.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncServerSocket.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSignalHandler.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSocket.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSocketBase.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncSocketException.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncTimeout.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncTransport.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncTransportCertificate.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncUDPServerSocket.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AsyncUDPSocket.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AtomicNotificationQueue-inl.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\AtomicNotificationQueue.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\CertificateIdentityVerifier.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\DecoratedAsyncTransportWrapper.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\DelayedDestruction.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\DelayedDestructionBase.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\DestructorCheck.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBase.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseAtomicNotificationQueue-inl.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseAtomicNotificationQueue.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseBackendBase.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseLocal.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseManager.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventBaseThread.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventFDWrapper.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventHandler.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\EventUtil.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\HHWheelTimer-fwd.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\HHWheelTimer.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\NotificationQueue.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\PasswordInFile.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\Request.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\SSLContext.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\SSLOptions.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ScopedEventBaseThread.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\TimeoutManager.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\VirtualEventBase.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\WriteChainAsyncTransportWrapper.h">
+      <Filter>folly\io\async</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ssl\BasicTransportCertificate.h">
+      <Filter>folly\io\async\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ssl\OpenSSLUtils.h">
+      <Filter>folly\io\async\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ssl\SSLErrors.h">
+      <Filter>folly\io\async\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\ssl\TLSDefinitions.h">
+      <Filter>folly\io\async\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\coro\ServerSocket.h">
+      <Filter>folly\io\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\coro\Transport.h">
+      <Filter>folly\io\coro</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Align.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Aligned.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Assume-inl.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Assume.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Bits.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Byte.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\CArray.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\CString.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Cast.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\CheckedMath.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\CustomizationPoint.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Exception.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Keep.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Launder.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Ordering.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\Pretty.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\PropagateConst.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\RValueReferenceWrapper.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\SafeAssert.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\StaticConst.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\ToAscii.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\TypeInfo.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\lang\UncaughtExceptions.h">
+      <Filter>folly\lang</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\AsyncFileWriter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\AsyncLogWriter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\BridgeFromGoogleLogging.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\CustomLogFormatter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\FileHandlerFactory.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\FileWriterFactory.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\GlogStyleFormatter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\ImmediateFileWriter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\Init.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogCategory.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogCategoryConfig.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogConfig.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogConfigParser.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogFormatter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogHandler.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogHandlerConfig.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogHandlerFactory.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogLevel.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogMessage.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogName.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogStream.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogStreamProcessor.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LogWriter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\Logger.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\LoggerDB.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\ObjectToString.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\RateLimiter.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\StandardLogHandler.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\StandardLogHandlerFactory.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\StreamHandlerFactory.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\logging\xlog.h">
+      <Filter>folly\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\Arena-inl.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\Arena.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\EnableSharedFromThis.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\MallctlHelper.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\Malloc.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\MemoryResource.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\ReentrantAllocator.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\SanitizeAddress.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\SanitizeLeak.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\ThreadCachedArena.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\UninitializedMemoryHacks.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\detail\MallocImpl.h">
+      <Filter>folly\memory\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\not_null-inl.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\memory\not_null.h">
+      <Filter>folly\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\net\NetOps.h">
+      <Filter>folly\net</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\net\NetOpsDispatcher.h">
+      <Filter>folly\net</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\net\NetworkSocket.h">
+      <Filter>folly\net</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\net\detail\SocketFileDescriptorMap.h">
+      <Filter>folly\net\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Asm.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Atomic.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Builtins.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Config.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Constexpr.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Dirent.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Event.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Fcntl.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Filesystem.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\FmtCompile.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\GFlags.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\GMock.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\GTest.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\IOVec.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Libgen.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Malloc.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Math.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Memory.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\OpenSSL.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\PThread.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Sched.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Semaphore.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Sockets.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Stdio.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Stdlib.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\String.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysFile.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysMembarrier.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysMman.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysResource.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysStat.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysSyscall.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysTime.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysTypes.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\SysUio.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Syslog.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Time.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Unistd.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\portability\Windows.h">
+      <Filter>folly\portability</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\python\AsyncioExecutor.h">
+      <Filter>folly\python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\python\async_generator.h">
+      <Filter>folly\python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\python\coro.h">
+      <Filter>folly\python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\python\error.h">
+      <Filter>folly\python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\python\executor.h">
+      <Filter>folly\python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\python\futures.h">
+      <Filter>folly\python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\python\iobuf.h">
+      <Filter>folly\python</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\Init.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\OpenSSLCertUtils.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\OpenSSLHash.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\OpenSSLLockTypes.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\OpenSSLPtrTypes.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\OpenSSLVersionFinder.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\SSLSession.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\SSLSessionManager.h">
+      <Filter>folly\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\detail\OpenSSLSession.h">
+      <Filter>folly\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\ssl\detail\OpenSSLThreading.h">
+      <Filter>folly\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\BucketedTimeSeries-inl.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\BucketedTimeSeries.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\Histogram-inl.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\Histogram.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\MultiLevelTimeSeries-inl.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\MultiLevelTimeSeries.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\QuantileEstimator-inl.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\QuantileEstimator.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\StreamingStats.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\TDigest.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\TimeseriesHistogram-inl.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\TimeseriesHistogram.h">
+      <Filter>folly\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\Bucket.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\BufferedStat-inl.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\BufferedStat.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\DigestBuilder-inl.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\DigestBuilder.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\DoubleRadixSort.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\SlidingWindow-inl.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\stats\detail\SlidingWindow.h">
+      <Filter>folly\stats\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AsymmetricMemoryBarrier.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AtomicNotification-inl.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AtomicNotification.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AtomicRef.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AtomicStruct.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AtomicUtil-inl.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\AtomicUtil.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Baton.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\CallOnce.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\DelayedInit.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\DistributedMutex-inl.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\DistributedMutex.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\DistributedMutexSpecializations.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Hazptr-fwd.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Hazptr.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrDomain.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrHolder.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrObj.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrObjLinked.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrRec.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrThrLocal.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\HazptrThreadPoolExecutor.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\LifoSem.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Lock.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\MicroSpinLock.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\ParkingLot.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\PicoSpinLock.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\RWSpinLock.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Rcu-inl.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Rcu.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\SanitizeThread.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\SaturatingSemaphore.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\SmallLocks.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Tearable.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\Utility.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\WaitOptions.h">
+      <Filter>folly\synchronization</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\AtomicUtils.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\Hardware.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\HazptrUtils.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\InlineFunctionRef.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\ProxyLockable-inl.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\ProxyLockable.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\Sleeper.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\Spin.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\ThreadCachedInts.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\detail\ThreadCachedLists.h">
+      <Filter>folly\synchronization\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\example\HazptrLockFreeLIFO.h">
+      <Filter>folly\synchronization\example</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\example\HazptrSWMRSet.h">
+      <Filter>folly\synchronization\example</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\example\HazptrWideCAS.h">
+      <Filter>folly\synchronization\example</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\system\HardwareConcurrency.h">
+      <Filter>folly\system</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\system\MemoryMapping.h">
+      <Filter>folly\system</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\system\Pid.h">
+      <Filter>folly\system</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\system\Shell.h">
+      <Filter>folly\system</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\system\ThreadId.h">
+      <Filter>folly\system</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\system\ThreadName.h">
+      <Filter>folly\system</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\tracing\AsyncStack-inl.h">
+      <Filter>folly\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\tracing\AsyncStack.h">
+      <Filter>folly\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\tracing\ScopedTraceSection.h">
+      <Filter>folly\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\tracing\StaticTracepoint-ELFx86.h">
+      <Filter>folly\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\tracing\StaticTracepoint.h">
+      <Filter>folly\tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\test\F14TestUtil.h">
+      <Filter>folly\container\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\container\test\TrackingTypes.h">
+      <Filter>folly\container\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\AsyncSSLSocketTest.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\AsyncSocketTest.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\AsyncSocketTest2.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\BlockingSocket.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\MockAsyncSocket.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\MockAsyncServerSocket.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\MockAsyncSSLSocket.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\MockAsyncTransport.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\MockAsyncUDPSocket.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\MockTimeoutManager.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\ScopedBoundPort.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\SocketPair.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\TestSSLServer.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\TimeUtil.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\UndelayedDestruction.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\io\async\test\Util.h">
+      <Filter>folly\io\async\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\synchronization\test\Semaphore.h">
+      <Filter>folly\synchronization\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\test\DeterministicSchedule.h">
+      <Filter>folly\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\test\JsonTestUtil.h">
+      <Filter>folly\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\test\TestUtils.h">
+      <Filter>folly\test</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly\folly-config.h">
+      <Filter>folly</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\folly-2021.03.15.00\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="folly">
+      <UniqueIdentifier>{6C804F40-3B8A-3033-8CAC-6909043E980B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\chrono">
+      <UniqueIdentifier>{73C154F1-3A0D-3868-98C7-172CC8C5C164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\compression">
+      <UniqueIdentifier>{D0BF36DC-2D3D-381C-B1CD-F38296489966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\concurrency">
+      <UniqueIdentifier>{AC348DE6-13A3-362A-B68E-7AE42CA95D81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\concurrency\detail">
+      <UniqueIdentifier>{DA71A394-BBDB-3238-BA10-660319FA7B62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\container">
+      <UniqueIdentifier>{BA65A828-AE66-3EB1-8BDC-EB004D3174EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\container\detail">
+      <UniqueIdentifier>{022BBBB9-D8EB-3204-9F28-D75BCB37F0E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\container\test">
+      <UniqueIdentifier>{A7D147EB-C924-32CA-8B9F-DD98106F9D0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\detail">
+      <UniqueIdentifier>{C975AF9E-86D4-3B7D-9357-E2BB4B984987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\executors">
+      <UniqueIdentifier>{5DC557B6-1AD2-3EE8-BCCC-B463CADE0CB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\executors\task_queue">
+      <UniqueIdentifier>{5A7594D2-E837-3BA7-8A21-956BF178CEDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\executors\thread_factory">
+      <UniqueIdentifier>{1CD3092B-7F0B-34E9-A238-6028592D4A63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental">
+      <UniqueIdentifier>{B470C02C-8A56-39D2-BCAF-A1C406D5FDBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\bser">
+      <UniqueIdentifier>{F3B41BAD-E4B8-3272-B66D-178FE228ED21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\coro">
+      <UniqueIdentifier>{16143B0D-2240-3A84-A2FD-C915EE8DBE0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\coro\detail">
+      <UniqueIdentifier>{607AD417-2B74-3251-B761-D7537D090F5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\flat_combining">
+      <UniqueIdentifier>{BADE25BC-087B-3F40-9758-5CA60AF139AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\io">
+      <UniqueIdentifier>{3FE3364D-E1F5-359A-8627-B35C397DBF38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\observer">
+      <UniqueIdentifier>{830FA846-C66F-393B-A35B-D09C8F78C95D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\observer\detail">
+      <UniqueIdentifier>{2DC7F7F1-6DBB-379D-B80B-5722ACEEC6E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\settings">
+      <UniqueIdentifier>{A2E37418-33D4-3B27-B5DF-1D8673EC789A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\settings\detail">
+      <UniqueIdentifier>{1AE71292-2426-3C0C-BBBF-B1A7AE0F9BCA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\symbolizer">
+      <UniqueIdentifier>{3B2CF5D6-1430-3E91-96D6-721CC4D2B9DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\experimental\symbolizer\detail">
+      <UniqueIdentifier>{7BA2BA0E-A085-306F-A73C-D2F8E059ACA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\external">
+      <UniqueIdentifier>{D91E9877-0C43-3F32-BB44-CFB779F5FB30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\external\farmhash">
+      <UniqueIdentifier>{728A6520-3CC4-3B25-A75A-B2A41227BA1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\fibers">
+      <UniqueIdentifier>{3B21CC61-C441-3FD8-9A57-BE0F738908EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\fibers\async">
+      <UniqueIdentifier>{5E9956DF-AD9D-3244-82F2-C6E376BB4F27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\fibers\detail">
+      <UniqueIdentifier>{CC10454F-6E68-3FBB-8542-31F1B9EF56D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\functional">
+      <UniqueIdentifier>{752A42BF-A7D1-3AAA-BE83-2F816AA1C330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\futures">
+      <UniqueIdentifier>{9608088B-A1AB-34A3-A042-14CCCEA1C1DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\futures\detail">
+      <UniqueIdentifier>{44A62DBD-7FCD-3199-9BCD-32211F13A6EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\gen">
+      <UniqueIdentifier>{BB70E107-5DF9-3C5F-B6D1-21DF51859B7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\hash">
+      <UniqueIdentifier>{9236D7CF-79C4-368F-A7D0-5EB497E581B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\hash\detail">
+      <UniqueIdentifier>{EDAACEB9-5F67-3CE4-9882-A1F9AF7D1EB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\init">
+      <UniqueIdentifier>{7B4A5E44-3ED4-3DD5-B1EF-93D01A5E16B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\io">
+      <UniqueIdentifier>{4A02B576-3AD8-3C21-8670-DA55EC928B58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\io\async">
+      <UniqueIdentifier>{E90903D3-5677-3AB1-A5ED-714A062FDFFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\io\async\ssl">
+      <UniqueIdentifier>{5967025F-15BB-3EAE-B1AD-2C708B2C3B6F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\io\async\test">
+      <UniqueIdentifier>{3E93F646-5FF1-3A36-97F5-CF2B26C5B4D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\io\coro">
+      <UniqueIdentifier>{70E3D4FF-057A-342F-ACF6-418F4A849FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\lang">
+      <UniqueIdentifier>{234800C0-9BDC-3162-9766-979B3D584C86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\logging">
+      <UniqueIdentifier>{01B541B1-8165-3BC2-B7DC-3CD77F2BB7C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\memory">
+      <UniqueIdentifier>{EF51F5CA-0AA8-31EE-9B48-9CDD9E3E34AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\memory\detail">
+      <UniqueIdentifier>{917B8757-A25A-3726-A104-FE23A6C56C15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\net">
+      <UniqueIdentifier>{8DEAA706-56E4-3A15-B006-1FB0050D7468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\net\detail">
+      <UniqueIdentifier>{CB7FE5D4-B4E4-3C42-BD03-2C177980E3CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\portability">
+      <UniqueIdentifier>{D3771B32-D588-33AC-94BB-0207CFED1FBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\python">
+      <UniqueIdentifier>{C45107A8-97DC-35D9-AC79-33F8C3BC5811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\ssl">
+      <UniqueIdentifier>{50B01224-FAC9-3EEF-A1C3-F65E14B3DD1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\ssl\detail">
+      <UniqueIdentifier>{DFB68465-CFD2-3E2D-B26B-6E9B55FBBE01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\stats">
+      <UniqueIdentifier>{4D724AEB-DBD8-39D9-8ABF-74837A026291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\stats\detail">
+      <UniqueIdentifier>{6D7A2A98-3B04-3EBA-935D-36440BF8A54B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\synchronization">
+      <UniqueIdentifier>{1F9DA107-6586-35E5-BDE7-9583EBC41376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\synchronization\detail">
+      <UniqueIdentifier>{FA9233C5-D4C3-3B34-96A9-3C2ECB27AA54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\synchronization\example">
+      <UniqueIdentifier>{93750F09-4FED-3FFC-9B3D-8BA497176611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\synchronization\test">
+      <UniqueIdentifier>{6208184D-290E-39D2-8C3E-2650BF33D373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\system">
+      <UniqueIdentifier>{5AF3E76A-536D-3902-825D-D923FD86DA0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\test">
+      <UniqueIdentifier>{2568252C-D6C7-30B6-9C4A-A2E0F7419578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="folly\tracing">
+      <UniqueIdentifier>{1E1CDC79-1904-3081-AEB0-A41007B4329A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\folly-2021.03.15.00\vs2019\CMakeFiles\9e239e767457903f87dd566a573b595d\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5AED19A7-DCF8-3161-8056-AF917545CE35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress.gen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_bufferevent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_dns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_et.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_finalize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_http.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_listener.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_minheap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_rpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_testutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\tinytest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_iocp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\libevent-2.1.12-stable\test\regress_thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\quicNew\libevent-2.1.12-stable\test\regress.gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\libevent-2.1.12-stable\test\regress_testutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\libevent-2.1.12-stable\vs2019\CMakeFiles\375d90a9fdbe76ce2122857a4cddeaee\regress.gen.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\quicNew\libevent-2.1.12-stable\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{90F89371-A0FF-3419-A4C3-B9FD4C5E63E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FFFE3CDE-BF24-38A3-A9A6-952AAB098F71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F834D3B9-1504-36F0-8AB0-8A217F462674}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
