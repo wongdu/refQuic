@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B92365F-B5CD-3F63-B4E3-A526A3348C6C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\mvfst\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/quicNew/mvfst/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/mvfst -BF:/quicNew/mvfst/vs2019 --check-stamp-file F:/quicNew/mvfst/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\mvfst\cmake\mvfst-config.cmake.in;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\mvfst\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/quicNew/mvfst/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/mvfst -BF:/quicNew/mvfst/vs2019 --check-stamp-file F:/quicNew/mvfst/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\mvfst\cmake\mvfst-config.cmake.in;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\mvfst\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/quicNew/mvfst/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/mvfst -BF:/quicNew/mvfst/vs2019 --check-stamp-file F:/quicNew/mvfst/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\mvfst\cmake\mvfst-config.cmake.in;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\mvfst\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/quicNew/mvfst/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/mvfst -BF:/quicNew/mvfst/vs2019 --check-stamp-file F:/quicNew/mvfst/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindBoost.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\mvfst\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\mvfst\cmake\mvfst-config.cmake.in;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\mvfst\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\mvfst\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{4AF9F8B5-0D1C-3E5B-9253-DBD72747D6D9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\common\mvfst_buf_accessor.vcxproj">
+      <Project>{35B5DDDB-D43A-34DC-AC91-C44072B74009}</Project>
+      <Name>mvfst_buf_accessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\common\mvfst_bufutil.vcxproj">
+      <Project>{17FE56C1-7FCC-3764-BF3D-5ABDD91200DF}</Project>
+      <Name>mvfst_bufutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\congestion_control\mvfst_cc_algo.vcxproj">
+      <Project>{EAC17CCD-7BBF-3D13-87C9-58BEC81C5B89}</Project>
+      <Name>mvfst_cc_algo</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\client\mvfst_client.vcxproj">
+      <Project>{8C577FCF-09FF-31C3-8C5C-386A47228C36}</Project>
+      <Name>mvfst_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\codec\mvfst_codec.vcxproj">
+      <Project>{727C53CC-D3C6-33FA-AB3B-7975330EED54}</Project>
+      <Name>mvfst_codec</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\codec\mvfst_codec_decode.vcxproj">
+      <Project>{F6153ED5-D5FB-355C-8E4C-5E7FC3BEB9EE}</Project>
+      <Name>mvfst_codec_decode</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\codec\mvfst_codec_packet_number_cipher.vcxproj">
+      <Project>{B911BE9E-D01B-3321-A556-22D4D1496F40}</Project>
+      <Name>mvfst_codec_packet_number_cipher</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\codec\mvfst_codec_pktbuilder.vcxproj">
+      <Project>{715CA54D-B7F7-3087-8D15-8D50B8CACADA}</Project>
+      <Name>mvfst_codec_pktbuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\codec\mvfst_codec_pktrebuilder.vcxproj">
+      <Project>{E67D6C90-CBA3-38CA-8F4D-C6D671AA6159}</Project>
+      <Name>mvfst_codec_pktrebuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\codec\mvfst_codec_types.vcxproj">
+      <Project>{B4FC53BE-5825-3562-A16F-F6A1A41ED8BE}</Project>
+      <Name>mvfst_codec_types</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\mvfst_constants.vcxproj">
+      <Project>{83A76BD8-AEA0-319D-8D16-482A720313A1}</Project>
+      <Name>mvfst_constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\d6d\mvfst_d6d_state_functions.vcxproj">
+      <Project>{9A84E771-4D6A-3B8D-8F0E-D1FE5F2C64E0}</Project>
+      <Name>mvfst_d6d_state_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\d6d\mvfst_d6d_types.vcxproj">
+      <Project>{00FF0D86-C1F6-34A5-986B-EA7C9D3F47B6}</Project>
+      <Name>mvfst_d6d_types</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\mvfst_exception.vcxproj">
+      <Project>{FEC1853A-4BD8-39A3-B8B6-4C1DA17B50EE}</Project>
+      <Name>mvfst_exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\fizz\client\mvfst_fizz_client.vcxproj">
+      <Project>{3A5A0B01-8191-3178-ACF9-AEA4DD5927A5}</Project>
+      <Name>mvfst_fizz_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\fizz\handshake\mvfst_fizz_handshake.vcxproj">
+      <Project>{E8DA0E6E-F6ED-3E26-90B3-C6258B0F284D}</Project>
+      <Name>mvfst_fizz_handshake</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\flowcontrol\mvfst_flowcontrol.vcxproj">
+      <Project>{1C053C4F-11C7-3281-ABFF-D8173BDE17FC}</Project>
+      <Name>mvfst_flowcontrol</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\handshake\mvfst_handshake.vcxproj">
+      <Project>{6352B205-5873-3FD7-89EA-C480A8A32EC2}</Project>
+      <Name>mvfst_handshake</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\happyeyeballs\mvfst_happyeyeballs.vcxproj">
+      <Project>{31BFE22F-2D69-39E6-8E1B-8007B8C2FC80}</Project>
+      <Name>mvfst_happyeyeballs</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\common\mvfst_looper.vcxproj">
+      <Project>{6CA83470-3D76-3791-89A4-6700AC9E26D0}</Project>
+      <Name>mvfst_looper</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\loss\mvfst_loss.vcxproj">
+      <Project>{148E3B45-6F67-3E56-BD6E-C0872BD1C6CD}</Project>
+      <Name>mvfst_loss</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\logging\mvfst_qlogger.vcxproj">
+      <Project>{060FE19B-6D8A-36B4-8FE3-4D1EAA5431C2}</Project>
+      <Name>mvfst_qlogger</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\server\mvfst_server.vcxproj">
+      <Project>{9163CF7A-6DA3-3DAB-8B39-5CB6EC37147E}</Project>
+      <Name>mvfst_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\common\mvfst_socketutil.vcxproj">
+      <Project>{CBBC0664-DE4B-34DE-A867-18414584B9C6}</Project>
+      <Name>mvfst_socketutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\state\mvfst_state_ack_handler.vcxproj">
+      <Project>{4F30BB95-45FC-3DCE-B14D-33E2AD56CBEC}</Project>
+      <Name>mvfst_state_ack_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\state\mvfst_state_functions.vcxproj">
+      <Project>{093D21AA-6FBD-3DC0-A6D8-D1A92B8D8A36}</Project>
+      <Name>mvfst_state_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\state\mvfst_state_machine.vcxproj">
+      <Project>{06F27592-917A-30EF-BEC8-34422CBC4401}</Project>
+      <Name>mvfst_state_machine</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\state\mvfst_state_pacing_functions.vcxproj">
+      <Project>{A6958E23-6A44-3672-ADE1-E51E5310C147}</Project>
+      <Name>mvfst_state_pacing_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\state\mvfst_state_simple_frame_functions.vcxproj">
+      <Project>{CADF8993-B8D7-3917-AD64-2551E8D239DD}</Project>
+      <Name>mvfst_state_simple_frame_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\state\mvfst_state_stream.vcxproj">
+      <Project>{F3E1981B-8B8C-35DB-93AF-1FA154776D31}</Project>
+      <Name>mvfst_state_stream</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\state\mvfst_state_stream_functions.vcxproj">
+      <Project>{B21D8596-0D69-3526-825C-2EEC30ED52F5}</Project>
+      <Name>mvfst_state_stream_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\api\mvfst_transport.vcxproj">
+      <Project>{38BA505C-2B54-374B-A7E6-5C4AFD22DC28}</Project>
+      <Name>mvfst_transport</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\quicNew\mvfst\vs2019\quic\common\mvfst_transport_knobs.vcxproj">
+      <Project>{9ACB8AC8-3E0C-31F6-8B84-F4A4884FE1E9}</Project>
+      <Name>mvfst_transport_knobs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

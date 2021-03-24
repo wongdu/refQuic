@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\handshake\FizzBridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\handshake\FizzCryptoFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\handshake\FizzPacketNumberCipher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\handshake\FizzRetryIntegrityTagGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\handshake\QuicFizzFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\mvfst\quic\fizz\handshake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7DD7B8CE-6375-3C7D-9852-88748174496C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

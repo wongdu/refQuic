@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\QuicServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\QuicServerBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\QuicServerPacketRouter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\QuicServerTransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\QuicServerWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\CCPReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\SlidingWindowRateLimiter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\handshake\ServerHandshake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\handshake\AppToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\handshake\DefaultAppTokenValidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\handshake\RetryTokenGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\handshake\StatelessResetGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\server\state\ServerStateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\server\handshake\AppToken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\server\handshake\FizzServerQuicHandshakeContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\mvfst\quic\fizz\server\handshake\FizzServerHandshake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\mvfst\quic\server\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7DD7B8CE-6375-3C7D-9852-88748174496C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

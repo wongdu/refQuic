@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\mvfst\vs2019\CMakeFiles\878619fcd7a6d8c8fc56c45ff737e0a5\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C13C9E38-BE8C-3606-9CD4-4CF80E5676BF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

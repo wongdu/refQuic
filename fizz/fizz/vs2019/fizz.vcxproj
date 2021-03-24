@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7195F63E-8393-33AC-BC0B-7FF6883F2878}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>fizz</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\fizz\fizz\vs2019\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">fizz.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">fizz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\fizz\fizz\vs2019\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">fizz.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">fizz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\fizz\fizz\vs2019\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">fizz.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">fizz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\fizz\fizz\vs2019\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">fizz.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">fizz</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\include;F:\quicNew\deps\include\libsodium;F:\quicNew\deps\include\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\quicNew\fizz;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\fizz\fizz\LIBGFLAGS_INCLUDE_DIR-NOTFOUND;F:\quicNew\libevent-2.1.12-stable\include;F:\quicNew\libevent-2.1.12-stable\vs2019\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\quicNew\fizz\fizz\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/quicNew/fizz/fizz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/fizz/fizz -BF:/quicNew/fizz/fizz/vs2019 --check-stamp-file F:/quicNew/fizz/fizz/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\quicNew\fizz\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\fizz\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\fizz\fizz\cmake\CheckAtomic.cmake;F:\quicNew\fizz\fizz\cmake\FindLibevent.cmake;F:\quicNew\fizz\fizz\cmake\fizz-config.cmake.in;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfig.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfigVersion.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventTargets-shared.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\fizz\fizz\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/quicNew/fizz/fizz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/fizz/fizz -BF:/quicNew/fizz/fizz/vs2019 --check-stamp-file F:/quicNew/fizz/fizz/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\quicNew\fizz\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\fizz\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\fizz\fizz\cmake\CheckAtomic.cmake;F:\quicNew\fizz\fizz\cmake\FindLibevent.cmake;F:\quicNew\fizz\fizz\cmake\fizz-config.cmake.in;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfig.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfigVersion.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventTargets-shared.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\fizz\fizz\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/quicNew/fizz/fizz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/fizz/fizz -BF:/quicNew/fizz/fizz/vs2019 --check-stamp-file F:/quicNew/fizz/fizz/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\quicNew\fizz\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\fizz\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\fizz\fizz\cmake\CheckAtomic.cmake;F:\quicNew\fizz\fizz\cmake\FindLibevent.cmake;F:\quicNew\fizz\fizz\cmake\fizz-config.cmake.in;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfig.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfigVersion.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventTargets-shared.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\fizz\fizz\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/quicNew/fizz/fizz/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SF:/quicNew/fizz/fizz -BF:/quicNew/fizz/fizz/vs2019 --check-stamp-file F:/quicNew/fizz/fizz/vs2019/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;D:\Program Files\CMake\share\cmake-3.18\Modules\FindOpenSSL.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\WriteBasicConfigVersionFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\quicNew\fizz\build\fbcode_builder\CMake\FBBuildOptions.cmake;F:\quicNew\fizz\build\fbcode_builder\CMake\FindGflags.cmake;F:\quicNew\fizz\fizz\cmake\CheckAtomic.cmake;F:\quicNew\fizz\fizz\cmake\FindLibevent.cmake;F:\quicNew\fizz\fizz\cmake\fizz-config.cmake.in;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeCXXCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeRCCompiler.cmake;F:\quicNew\fizz\fizz\vs2019\CMakeFiles\3.18.4\CMakeSystem.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfig.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventConfigVersion.cmake;F:\quicNew\libevent-2.1.12-stable\vs2019\LibeventTargets-shared.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\fizz\fizz\vs2019\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\Actions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\AsyncFizzClient-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\AsyncFizzClient.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\ClientExtensions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\ClientProtocol.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\EarlyDataRejectionPolicy.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\FizzClient-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\FizzClient.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\FizzClientContext.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\MultiClientExtensions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\PskCache.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\PskSerializationUtils.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\State.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\SynchronizedLruPskCache.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\client\test\Utilities.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\ECCurve.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\Hkdf.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\KeyDerivation.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\RandomGenerator.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\Sha-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\Sha.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\Sha256.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\Sha384.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\Utils.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\AESGCM128.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\AESGCM256.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\AESOCB128.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\Aead.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\ChaCha20Poly1305.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\IOBufUtil.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\OpenSSLEVPCipher-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\OpenSSLEVPCipher.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\aead\test\TestUtil.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\exchange\ECCurveKeyExchange.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\exchange\KeyExchange.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\exchange\OpenSSLKeyExchange-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\exchange\OpenSSLKeyExchange.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\exchange\X25519.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\exchange\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\hpke\Context.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\hpke\DHKEM.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\hpke\Hkdf.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\hpke\Hpke.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\hpke\Types.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\hpke\Utils.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\hpke\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\openssl\OpenSSL.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\openssl\OpenSSLKeyUtils.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\signature\Signature-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\signature\Signature.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\signature\test\EdSignatureTest.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\crypto\test\TestUtil.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialCertManager.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialClientExtension.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialFactory.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialUtils.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\PeerDelegatedCredential-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\PeerDelegatedCredential.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\SelfDelegatedCredential-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\SelfDelegatedCredential.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\Types.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\exportedauth\ExportedAuthenticator.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\exportedauth\Util.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\TokenBindingClientExtension.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\TokenBindingConstructor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\TokenBindingContext.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\TokenBindingServerExtension.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\Types.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\Utils.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\Validator.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Actions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\AsyncFizzBase.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\BrotliCertificateCompressor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\BrotliCertificateDecompressor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\CertDecompressionManager.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Certificate-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Certificate.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\CertificateCompressor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\CertificateVerifier.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\DefaultCertificateVerifier.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Events.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Exporter.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Factory.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\FizzBase-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\FizzBase.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\HandshakeContext-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\HandshakeContext.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\KeyScheduler.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\OpenSSLFactory.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Params.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Protocol.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\StateMachine-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\StateMachine.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\Types.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ZlibCertificateCompressor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ZlibCertificateDecompressor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ZstdCertificateCompressor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ZstdCertificateDecompressor.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\clock\Clock.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\clock\SystemClock.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\clock\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ech\Decrypter.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ech\ECHExtensions-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ech\ECHExtensions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ech\Encryption.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ech\Types-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ech\Types.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\ech\test\TestUtil.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\test\Matchers.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\test\ProtocolTest.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\test\TestMessages.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\protocol\test\Utilities.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\EncryptedRecordLayer.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\Extensions-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\Extensions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\PlaintextRecordLayer.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\RecordLayer.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\Types-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\Types.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\test\ExtensionTestsBase.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\record\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\Actions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\AeadCookieCipher.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\AeadTicketCipher.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\AeadTokenCipher.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\AsyncFizzServer-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\AsyncFizzServer.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\AsyncSelfCert.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\CertManager.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\CookieCipher.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\CookieTypes.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\DualTicketCipher.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\FizzServer-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\FizzServer.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\FizzServerContext.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\MultiServerExtensions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\Negotiator.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\ReplayCache.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\ResumptionState.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\ServerExtensions.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\ServerProtocol.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\SlidingBloomReplayCache.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\State.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\TicketCipher.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\TicketCodec-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\TicketCodec.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\TicketPolicy.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\TicketTypes.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\test\Mocks.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\server\test\Utils.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\util\FizzUtil.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\util\KeyLogWriter.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\util\Parse-inl.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\util\Parse.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\util\Variant.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\util\Workarounds.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\tool\CertificateVerifiers.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\tool\Commands.h" />
+    <ClInclude Include="F:\quicNew\fizz\fizz\tool\FizzCommandCommon.h" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\Utils.cpp">
+      <ObjectFileName>$(IntDir)/crypto/Utils.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\exchange\X25519.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\aead\OpenSSLEVPCipher.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\aead\IOBufUtil.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\signature\Signature.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\Hkdf.cpp">
+      <ObjectFileName>$(IntDir)/crypto/Hkdf.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\KeyDerivation.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\Sha256.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\Sha384.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\hpke\Context.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\hpke\DHKEM.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\hpke\Hkdf.cpp">
+      <ObjectFileName>$(IntDir)/crypto/hpke/Hkdf.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\hpke\Hpke.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\hpke\Utils.cpp">
+      <ObjectFileName>$(IntDir)/crypto/hpke/Utils.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\crypto\openssl\OpenSSLKeyUtils.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\record\Types.cpp">
+      <ObjectFileName>$(IntDir)/record/Types.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\record\RecordLayer.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\record\EncryptedRecordLayer.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\record\PlaintextRecordLayer.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\AeadTokenCipher.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\AeadCookieCipher.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\ServerProtocol.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\CertManager.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\State.cpp">
+      <ObjectFileName>$(IntDir)/server/State.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\FizzServer.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\TicketCodec.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\CookieCipher.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\ReplayCache.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\server\SlidingBloomReplayCache.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\AsyncFizzBase.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\Types.cpp">
+      <ObjectFileName>$(IntDir)/protocol/Types.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\Exporter.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\DefaultCertificateVerifier.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\Events.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\KeyScheduler.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\Certificate.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\CertDecompressionManager.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\Params.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\ZlibCertificateCompressor.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\ZlibCertificateDecompressor.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\clock\SystemClock.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\ech\Decrypter.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\protocol\ech\Encryption.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialCertManager.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialClientExtension.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialFactory.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\DelegatedCredentialUtils.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\delegatedcred\Types.cpp">
+      <ObjectFileName>$(IntDir)/extensions/delegatedcred/Types.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\exportedauth\ExportedAuthenticator.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\Types.cpp">
+      <ObjectFileName>$(IntDir)/extensions/tokenbinding/Types.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\TokenBindingConstructor.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\TokenBindingClientExtension.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\extensions\tokenbinding\Validator.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\experimental\client\BatchSignaturePeerCert.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\experimental\protocol\BatchSignatureTypes.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\client\State.cpp">
+      <ObjectFileName>$(IntDir)/client/State.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\quicNew\fizz\fizz\client\ClientProtocol.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\client\PskSerializationUtils.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\client\SynchronizedLruPskCache.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\client\EarlyDataRejectionPolicy.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\tool\FizzCommandCommon.cpp" />
+    <ClCompile Include="F:\quicNew\fizz\fizz\util\FizzUtil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\quicNew\fizz\fizz\vs2019\ZERO_CHECK.vcxproj">
+      <Project>{9A2487F2-EA56-3BBA-A9EF-97C92044BB19}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
