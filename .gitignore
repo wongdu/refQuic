@@ -7,3 +7,5 @@ CMakeFiles
 *.tlog
 Debug
 *.vcxproj.user
+CMakeCache.txt
+libsodium/test/default/*.exe
