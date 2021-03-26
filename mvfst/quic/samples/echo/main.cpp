@@ -11,7 +11,10 @@
 #include <glog/logging.h>
 
 #include <fizz/crypto/Utils.h>
+//#include <fizz/crypto/Sha256.h>
 #include <folly/init/Init.h>
+//#include <folly/logging/Init.h>
+//#include <folly/logging/example/lib.h>
 #include <folly/portability/GFlags.h>
 
 #include <quic/samples/echo/EchoClient.h>
@@ -22,6 +25,19 @@ DEFINE_int32(port, 6666, "Echo server port");
 DEFINE_string(mode, "server", "Mode to run in: 'client' or 'server'");
 
 using namespace quic::samples;
+
+//static example::ExampleObject staticInitialized("static");
+//FOLLY_INIT_LOGGING_CONFIG(
+//    ".=WARNING,folly=INFO; default:async=true,sync_level=WARNING");
+
+//FOLLY_INIT_LOGGING_CONFIG(
+//    ".=WARNING; default:async=false,sync_level=WARNING");
+
+//FOLLY_INIT_LOGGING_CONFIG(".=INFO");
+
+
+ //FOLLY_INIT_LOGGING_CONFIG(
+ //   ".=INFO; default:async=false");
 
 int main(int argc, char* argv[]) {
 #if FOLLY_HAVE_LIBGFLAGS
