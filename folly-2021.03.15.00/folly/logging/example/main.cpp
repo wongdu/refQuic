@@ -21,6 +21,9 @@
 
 using namespace example;
 
+//static constexpr folly::StringPiece csBlankHash{
+//	  "\xe3\xb0\xc4\x42\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99\x6f\xb9\x24\x27\xae\x41\xe4\x64\x9b\x93\x4c\xa4\x95\x99\x1b\x78\x52\xb8\x15" };
+
 // Invoking code that uses XLOG() statements before main() is safe.
 // This will use default log settings defined by folly::initializeLoggerDB().
 static ExampleObject staticInitialized("static");
@@ -33,6 +36,9 @@ static ExampleObject staticInitialized("static");
 FOLLY_INIT_LOGGING_CONFIG(
     ".=WARNING,folly=INFO; default:async=true,sync_level=WARNING");
 
+//static /*constexpr*/ folly::StringPiece sBlankHash{
+//	  "\xe3\xb0\xc4\x42\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99\x6f\xb9\x24\x27\xae\x41\xe4\x64\x9b\x93\x4c\xa4\x95\x99\x1b\x78\x52\xb8\x55" };
+
 int main(int argc, char* argv[]) {
   // Using log macros before calling folly::initLogging() will use the default
   // log settings defined by folly::initializeLoggerDB().  The default behavior
@@ -43,7 +49,20 @@ int main(int argc, char* argv[]) {
   // folly::Init() will automatically initialize the logging settings based on
   // the FOLLY_INIT_LOGGING_CONFIG declaration above and the --logging command
   // line flag.
+
+  ///*static*/ /*constexpr*/ folly::StringPiece BlankHash{
+	 // "\xe3\xb0\xc4\x42\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99\x6f\xb9\x24\x27\xae\x41\xe4\x64\x9b\x93\x4c\xa4\x95\x99\x1b\x78\x52\xb8\x55" };
+  
+  /*XLOG(INFO, "now construct");
+
+  folly::ByteRange blankHash = BlankHash;
+  folly::ByteRange sblankHash = sBlankHash;
+  folly::ByteRange csblankHash = csBlankHash;
+  BlankHash.clear();*/
   folly::Init init(&argc, &argv);
+
+  /*folly::StringPiece BlankHash{
+	  "\xe3\xb0\xc4\x42\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99\x6f\xb9\x24\x27\xae\x41\xe4\x64\x9b\x93\x4c\xa4\x95\x99\x1b\x78\x52\xb8\x55" };*/
 
   // All XLOG() statements in this file will log to the category
   // folly.logging.example.main
@@ -58,5 +77,6 @@ int main(int argc, char* argv[]) {
 
   ExampleObject("foo");
   XLOG(INFO) << "main returning";
+  //XLOG(WARNING, "now returning");
   return 0;
 }
