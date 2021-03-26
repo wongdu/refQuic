@@ -212,10 +212,22 @@ int main(int argc, char **argv) {
   // so that death tests run before we use threads
   CHECK_EQ(RUN_ALL_TESTS(), 0);
 
-  CaptureTestStderr();
+  //1 the following line should be comment out,otherwise message logs cannot be outputted to the console window
+  //CaptureTestStderr();
 
   // re-emit early_stderr
   LogMessage("dummy", LogMessage::kNoLogPrefix, GLOG_INFO).stream() << early_stderr;
+
+  //2.1 want to set the flag that also log to stderr is true
+  //const size_t str_size = 256;
+  //char keyBuf[str_size];
+  ////char keyBuf[256];
+  //snprintf(keyBuf, str_size, "%s=%s", "GOOGLE_ALSOLOGTOSTDERR", "true");
+
+  //2.2 the following line is just ok, the above code set environment GOOGLE_ALSOLOGTOSTDERR looks like useless
+  FLAGS_alsologtostderr = true;
+
+//  LOG(INFO) << "log info 000";
 
   TestLogging(true);
   TestRawLogging();
@@ -230,8 +242,9 @@ int main(int argc, char **argv) {
 
   // TODO: The golden test portion of this test is very flakey.
   EXPECT_TRUE(
-      MungeAndDiffTestStderr(FLAGS_test_srcdir + "/src/logging_unittest.err"));
+	  MungeAndDiffTestStderr(FLAGS_test_srcdir + "/src/logging_unittest.err"));
 
+  LOG(INFO) << "just check whether current message log can be outputted to the console window";
   FLAGS_logtostderr = false;
 
   TestBasename();
@@ -245,6 +258,8 @@ int main(int argc, char **argv) {
   TestCustomLoggerDeletionOnShutdown();
 
   fprintf(stdout, "PASS\n");
+
+  LOG(INFO) << "just check whether current message log can be outputted to the console window";
   return 0;
 }
 
