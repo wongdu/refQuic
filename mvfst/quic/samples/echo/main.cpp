@@ -32,6 +32,7 @@ int main(int argc, char* argv[]) {
   gflags::ParseCommandLineFlags(&argc, &argv, false);
   folly::Init init(&argc, &argv);
   fizz::CryptoUtils::init();
+  folly::ByteRange test_blankHash = fizz::Sha256::BlankHash;  
 
   if (FLAGS_mode == "server") {
     EchoServer server(FLAGS_host, FLAGS_port);

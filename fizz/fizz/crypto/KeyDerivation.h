@@ -76,6 +76,9 @@ class KeyDerivationImpl : public KeyDerivation {
   template <typename Hash>
   static std::unique_ptr<KeyDerivationImpl> make(
       const std::string& labelPrefix) {
+      /*folly::StringPiece a = Hash::BlankHash;
+	  folly::StringPiece b = {
+	  "\xe3\xb0\xc4\x42\x98\xfc\x1c\x14\x9a\xfb\xf4\xc8\x99\x6f\xb9\x24\x27\xae\x41\xe4\x64\x9b\x93\x4c\xa4\x95\x99\x1b\x78\x52\xb8\x55" };*/
     return std::unique_ptr<KeyDerivationImpl>(new KeyDerivationImpl(
         labelPrefix,
         Hash::HashLen,
