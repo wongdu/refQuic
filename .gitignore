@@ -9,3 +9,4 @@ Debug
 *.vcxproj.user
 CMakeCache.txt
 libsodium/test/default/*.exe
+DartConfiguration.tcl
