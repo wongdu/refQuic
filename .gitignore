@@ -10,3 +10,4 @@ Debug
 CMakeCache.txt
 libsodium/test/default/*.exe
 DartConfiguration.tcl
+CMakeCache.txt
