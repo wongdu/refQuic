@@ -229,6 +229,9 @@
     <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\JemallocNodumpAllocator.obj">
       <Filter>Object Libraries</Filter>
     </Object>
+    <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\NestedCommandLineApp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
     <Object Include="F:\quicNew\folly-2021.03.15.00\vs2019\folly_base.dir\$(Configuration)\QuotientMultiSet.obj">
       <Filter>Object Libraries</Filter>
     </Object>

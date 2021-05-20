@@ -226,6 +226,9 @@
     <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\JemallocNodumpAllocator.cpp">
       <Filter>folly\experimental</Filter>
     </ClCompile>
+    <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\NestedCommandLineApp.cpp">
+      <Filter>folly\experimental</Filter>
+    </ClCompile>
     <ClCompile Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\QuotientMultiSet.cpp">
       <Filter>folly\experimental</Filter>
     </ClCompile>
@@ -1489,6 +1492,9 @@
       <Filter>folly\experimental</Filter>
     </ClInclude>
     <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\LockFreeRingBuffer.h">
+      <Filter>folly\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\NestedCommandLineApp.h">
       <Filter>folly\experimental</Filter>
     </ClInclude>
     <ClInclude Include="F:\quicNew\folly-2021.03.15.00\folly\experimental\PrimaryPtr.h">

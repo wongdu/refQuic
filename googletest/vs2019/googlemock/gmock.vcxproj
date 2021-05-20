@@ -89,7 +89,7 @@
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -244,7 +244,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\quicNew\googletest\vs2019\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/quicNew/googletest/googlemock/CMakeLists.txt</Message>
@@ -257,7 +257,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\quicNew\googletest\vs2019\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/quicNew/googletest/googlemock/CMakeLists.txt</Message>
@@ -270,7 +270,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\quicNew\googletest\vs2019\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/quicNew/googletest/googlemock/CMakeLists.txt</Message>
@@ -283,7 +283,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.18\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.18\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.20\Modules\FindThreads.cmake;F:\quicNew\googletest\googlemock\cmake\gmock.pc.in;F:\quicNew\googletest\googlemock\cmake\gmock_main.pc.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\quicNew\googletest\vs2019\googlemock\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>

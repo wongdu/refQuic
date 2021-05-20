@@ -78,7 +78,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;F:\quicNew\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -99,15 +99,15 @@
       <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>EnableAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";BOOST_ALL_NO_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +120,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend /Gw</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ConformanceMode>true</ConformanceMode>
@@ -143,17 +143,17 @@
       <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>EnableAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";BOOST_ALL_NO_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -166,7 +166,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend /Gw</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ConformanceMode>true</ConformanceMode>
@@ -189,17 +189,17 @@
       <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>EnableAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";BOOST_ALL_NO_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,7 +212,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /Zc:referenceBinding /Zc:implicitNoexcept /Zc:strictStrings /Zc:threadSafeInit /Zc:throwingNew /bigobj /favor:blend /Gw</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ConformanceMode>true</ConformanceMode>
@@ -236,15 +236,15 @@
       <TreatSpecificWarningsAsErrors>4099;4129;4566</TreatSpecificWarningsAsErrors>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>EnableAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES="F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019";BOOST_ALL_NO_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_STL_EXTRA_DISABLED_WARNINGS=4774 4987;WIN32_LEAN_AND_MEAN;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;FOLLY_XLOG_STRIP_PREFIXES=\"F:/quicNew/folly-2021.03.15.00:F:/quicNew/folly-2021.03.15.00/vs2019\";BOOST_ALL_NO_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00\GLOG_INCLUDE_DIR-NOTFOUND;F:\quicNew\folly-2021.03.15.00\deps\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\deps\OpenSSL-Win64\include;C:\Boost\include\boost-1_75;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>

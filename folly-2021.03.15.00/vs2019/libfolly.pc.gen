@@ -1,11 +1,11 @@
-prefix=C:/Program Files (x86)/folly
-exec_prefix=C:/Program Files (x86)/folly
+prefix=C:/Program Files/folly
+exec_prefix=C:/Program Files/folly
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
 
 Name: libfolly
 Description: Facebook (Folly) C++ library
 Version: 0.58.0-dev
-Cflags: -I${includedir} -IC:/Boost/include/boost-1_75 -IF:/quicNew/folly-2021.03.15.00/GLOG_INCLUDE_DIR-NOTFOUND -IF:/quicNew/folly-2021.03.15.00/deps/OpenSSL-Win64/include
+Cflags: -I${includedir} -DBOOST_ALL_NO_LIB -IC:/Boost/include/boost-1_75 -IF:/quicNew/deps/OpenSSL-Win64/include
 Libs: -L${libdir} -lfolly
-Libs.private: -lfmt::fmt -lIphlpapi.lib -lWs2_32.lib -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_context-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_context-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_filesystem-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_filesystem-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_program_options-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_program_options-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_regex-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_regex-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_system-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_system-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_thread-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_thread-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_chrono-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_chrono-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_date_time-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_date_time-vc142-mt-gd-x64-1_75.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:C:/Boost/lib/libboost_atomic-vc142-mt-x64-1_75.lib> -l$<$<CONFIG:DEBUG>:C:/Boost/lib/libboost_atomic-vc142-mt-gd-x64-1_75.lib> -lGLOG_LIBRARY-NOTFOUND -l$<$<NOT:$<CONFIG:DEBUG>>:F:/quicNew/folly-2021.03.15.00/deps/OpenSSL-Win64/lib/VC/libssl64MD.lib> -l$<$<CONFIG:DEBUG>:F:/quicNew/folly-2021.03.15.00/deps/OpenSSL-Win64/lib/VC/libssl64MDd.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:F:/quicNew/folly-2021.03.15.00/deps/OpenSSL-Win64/lib/VC/libcrypto64MD.lib> -l$<$<CONFIG:DEBUG>:F:/quicNew/folly-2021.03.15.00/deps/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib>
+Libs.private: -lfmt::fmt -lIphlpapi.lib -lWs2_32.lib -l$<$<NOT:$<CONFIG:DEBUG>>:F:/quicNew/deps/OpenSSL-Win64/lib/VC/libssl64MD.lib> -l$<$<CONFIG:DEBUG>:F:/quicNew/deps/OpenSSL-Win64/lib/VC/libssl64MDd.lib> -l$<$<NOT:$<CONFIG:DEBUG>>:F:/quicNew/deps/OpenSSL-Win64/lib/VC/libcrypto64MD.lib> -l$<$<CONFIG:DEBUG>:F:/quicNew/deps/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib>

@@ -55,7 +55,7 @@ set(BOOST_LIBRARYDIR C:/Boost/lib)
 
 find_package(Boost REQUIRED)
 
-set(OPENSSL_ROOT_DIR ${CMAKE_SOURCE_DIR}/deps/OpenSSL-Win64)
+set(OPENSSL_ROOT_DIR ${CMAKE_SOURCE_DIR}/../deps/OpenSSL-Win64)
 # package information
 set(PACKAGE_NAME      "folly")
 if (NOT DEFINED PACKAGE_VERSION)
@@ -90,8 +90,8 @@ option(BUILD_SHARED_LIBS
 mark_as_advanced(BUILD_SHARED_LIBS)
 set(FOLLY_SUPPORT_SHARED_LIBRARY "${BUILD_SHARED_LIBS}")
 
-include(FBBuildOptions)
-fb_activate_static_library_option()
+# include(FBBuildOptions)
+# fb_activate_static_library_option()
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
