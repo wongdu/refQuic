@@ -19,7 +19,7 @@ set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "D:/Program Files/CMake/share/cmake-3
 set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "fizz built using CMake")
 set(CPACK_GENERATOR "RPM")
 set(CPACK_INSTALL_CMAKE_PROJECTS "F:/quicNew/fizz/fizz/vs2019;fizz;ALL;/")
-set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/fizz")
+set(CPACK_INSTALL_PREFIX "C:/Program Files/fizz")
 set(CPACK_MODULE_PATH "")
 set(CPACK_NSIS_DISPLAY_NAME "fizz 1.0.0")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")

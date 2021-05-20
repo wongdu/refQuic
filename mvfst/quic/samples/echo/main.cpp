@@ -26,6 +26,7 @@ DEFINE_string(mode, "server", "Mode to run in: 'client' or 'server'");
 
 using namespace quic::samples;
 
+
 //static example::ExampleObject staticInitialized("static");
 //FOLLY_INIT_LOGGING_CONFIG(
 //    ".=WARNING,folly=INFO; default:async=true,sync_level=WARNING");

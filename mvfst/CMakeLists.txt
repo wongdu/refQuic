@@ -19,8 +19,8 @@ set(CMAKE_MODULE_PATH
   "${CMAKE_CURRENT_SOURCE_DIR}/build/fbcode_builder/CMake"
   ${CMAKE_MODULE_PATH})
 
-include(FBBuildOptions)
-fb_activate_static_library_option()
+# include(FBBuildOptions)
+# fb_activate_static_library_option()
 
 # QUIC_FBCODE_ROOT is where the top level quic/ directory resides, so
 # an #include <quic/path/to/file> will resolve to
@@ -82,7 +82,7 @@ if (gflags_FOUND)
   list(APPEND CMAKE_REQUIRED_LIBRARIES ${GFLAGS_LIBRARIES})
   list(APPEND CMAKE_REQUIRED_INCLUDES ${GFLAGS_INCLUDE_DIR})
 else()
-  find_package(Gflags REQUIRED MODULE)
+  #find_package(Gflags REQUIRED MODULE)
   list(APPEND QUIC_EXTRA_LINK_LIBRARIES ${LIBGFLAGS_LIBRARY})
   list(APPEND QUIC_EXTRA_INCLUDE_DIRECTORIES ${LIBGFLAGS_INCLUDE_DIR})
   list(APPEND CMAKE_REQUIRED_LIBRARIES ${LIBGFLAGS_LIBRARY})

@@ -31,8 +31,8 @@ set(CMAKE_MODULE_PATH
   "${CMAKE_CURRENT_SOURCE_DIR}/../build/fbcode_builder/CMake"
   ${CMAKE_MODULE_PATH})
 
-include(FBBuildOptions)
-fb_activate_static_library_option()
+# include(FBBuildOptions)
+# fb_activate_static_library_option()
 
 # When installing Folly & Fizz in a non-default prefix, this will let
 # projects linking against libfizz.so to find libfolly.so automatically.
@@ -75,6 +75,8 @@ SET(FIZZ_SHINY_DEPENDENCIES "")
 SET(FIZZ_LINK_LIBRARIES "")
 SET(FIZZ_INCLUDE_DIRECTORIES "")
 
+#set(GFLAGS_ROOT_DIR ${CMAKE_SOURCE_DIR}/../../gflags)
+
 find_package(gflags CONFIG QUIET)
 if (gflags_FOUND)
   message(STATUS "Found gflags from package config")
@@ -88,7 +90,7 @@ if (gflags_FOUND)
   list(APPEND CMAKE_REQUIRED_LIBRARIES ${GFLAGS_LIBRARIES})
   list(APPEND CMAKE_REQUIRED_INCLUDES ${GFLAGS_INCLUDE_DIR})
 else()
-  find_package(Gflags REQUIRED MODULE)
+  #find_package(Gflags REQUIRED MODULE)
   list(APPEND FIZZ_LINK_LIBRARIES ${LIBGFLAGS_LIBRARY})
   list(APPEND FIZZ_INCLUDE_DIRECTORIES ${LIBGFLAGS_INCLUDE_DIR})
   list(APPEND CMAKE_REQUIRED_LIBRARIES ${LIBGFLAGS_LIBRARY})

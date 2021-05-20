@@ -116,7 +116,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\quicNew\mvfst;C:\Boost\include\boost-1_75;F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\fizz;F:\quicNew\deps\include;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\deps\include\libevent;F:\quicNew\deps\include\libsodium;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\quicNew\mvfst;C:\Boost\include\boost-1_75;F:\quicNew\deps\include;F:\quicNew\deps\include\libevent-2.1.12-stable;F:\quicNew\deps\include\libsodium;F:\quicNew\deps\OpenSSL-Win64\include;F:\quicNew\folly-2021.03.15.00;F:\quicNew\folly-2021.03.15.00\vs2019;F:\quicNew\fizz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
